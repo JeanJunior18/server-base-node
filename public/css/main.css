@@ -23,7 +23,7 @@ main{
 .redes-sociais ul li{
     margin-left: 15px;
     display: inline-block;
-    float: left;
+    float: none;
     list-style-type: none;
 }
 .redes-sociais {

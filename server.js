@@ -29,6 +29,13 @@ const Routes = require('./src/routes')
 app.use('/', Routes)
 
 
+/*
+Se aparecer esse erro:
 
+Error: listen EADDRINUSE :::3300
 
-app.listen(3301, console.log('http://localhost:3301'))
+Mude a porta e tente novamento
+*/ 
+const PORT = 3302
+
+app.listen(PORT, console.log('http://localhost:'+PORT))
